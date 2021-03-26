@@ -1,0 +1,10 @@
+- hosts: web_server
+  become: yes
+  roles:
+  - common
+  - webserver
+
+- hosts: dev_server
+  become: yes
+  roles:
+  - common

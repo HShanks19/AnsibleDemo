@@ -1,0 +1,6 @@
+---
+# tasks file for Docker_Compose
+
+- name: Install Docker Compose
+  pip:
+    name: docker-compose
